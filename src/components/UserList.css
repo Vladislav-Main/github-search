@@ -1,0 +1,38 @@
+.users-cards {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.user-card {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1pt solid;
+  border-radius: 5px;
+  border-color: black;
+  margin: 10px;
+  width: 350px;
+  height: 150px;
+}
+.link {
+  color: black;
+  text-decoration: none;
+}
+.user-card:hover {
+  background-color: rgba(207, 245, 245, 0.829);
+  color: blueviolet;
+ font-weight: 600;
+}
+
+.card-item {
+  padding: 15px;
+}
+.photo {
+  width: 125px;
+  height: 125px;
+  padding: 12px;
+  border-radius: 75px;
+}
